@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin-left: 25px;
+    max-width: 1100px;
+}
+.gnav{
+    list-style:none;
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    width: 55%;  
+}
+
+.gnav li a{ 
+    text-decoration: none;
+    padding: 20px; 
+    color: rgb(77, 96, 201);
+    font-size: 18px;
+    
+}
+
+.main_image img{
+    width: 100%;
+
+}
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color:rgb(8, 8, 85);
+  text-decoration: underline;
+  border-radius: 28px;
+  background-color: rgb(137, 151, 151);
+  transition: 0,5s;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+   
+}
+
+.section_content p{
+    line-height: 200%;
+    text-align: justify;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+.population_box{
+    display: flex;
+    background-color: rgb(238, 232, 232);
+    font-weight: bold;
+    align-items: center;
+    text-align: justify;
+    padding: 30px 0px;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.population_box img{
+    padding: 25px 50px;
+}
+
+.population_box p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.population_box span{
+    font-size: 18px;
+    display: block; 
+    font-weight: normal;
+}
+
+.landarea_box{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: rgb(238, 232, 232);
+    width: 50%;
+    margin: auto;
+}
+
+.landarea_box img{
+    padding: 20px 33px; 
+}
+
+.landarea_box p{
+    font-weight: bold;
+}
+
+.industories_inner{
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.industories_inner img{
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.industories_inner p{
+    text-align: justify;
+    margin-left: 17px;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+
+.history_inner{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.history_inner img{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.history_text p{
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 200%;
+    letter-spacing: 1px;
+}
+
+
+.footer_inner{
+    text-align: center;
+    padding: 25px 0px;
+    background-color: rgb(83, 97, 97);
+    margin-top: 60px;
+    border-radius: 55px;
+    padding-top: 30px;
+}
+
+
+.footer_inner p {
+   padding-top: 13px; 
+   font-weight: bold;   
+
+}
+
+@media only screen and(max-width:896px) {
+    body{
+        background-color: rgb(26, 22, 53);
+    }
+
+    .industories_inner{
+        align-items: flex-start;
+    }
+
+    .history_inner{
+        align-items: flex-start;
+    }
+    
+}
+
+@media only screen and(max-width:680px) {
+    body{
+        background-color: rgb(40, 104, 93);
+    }
+
+    .header_inner{
+        width: 90%;
+    }
+
+    .gnav{
+        width: 100%;
+        
+    }
+
+    .section_content{
+        display: block;
+        text-align: center;
+    }
+    
+    .section_content img{
+        width: 100%;
+    }
+    .section_inner p{
+        display: block;
+        text-align: center;
+    }
+
+    .population_box{
+        display: block;
+        text-align: center;
+       }
+
+         .population_box p{
+           width: 100%; 
+         }
+   
+
+       .landarea_box{
+           display: block;
+           text-align: center;
+       }
+
+       .landarea_box p{
+           width: 100%;
+       }
+      
+
+       .industories_inner{
+           display: block;
+           max-width: 90%;
+
+       }
+
+
+       .industories_inner img{
+           width: 90%;
+       }
+
+       .industories_text{
+           width: 100%;
+       }
+
+       .industories_inner p{
+           padding: 0;
+       }
+
+       .history_inner{
+           flex-direction: column-reverse;
+           width: 90%;
+       }
+
+       .history_text{
+           width: 100%;
+       }
+
+       .history_text p{
+           padding: 0;
+       }
+
+       .history_inner img{
+           width: 100%;
+        
+       }
+
+
+       
+}
